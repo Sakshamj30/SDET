@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-02T06:51:36 IST" name="Suite" finished-at="2025-03-02T06:52:04 IST" duration-ms="28567">
+    <groups>
+    </groups>
+    <test started-at="2025-03-02T06:51:36 IST" name="Test" finished-at="2025-03-02T06:52:04 IST" duration-ms="28567">
+      <class name="SeleniumPrep.FullSeleniumFramework.MainScript">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumPrep.FullSeleniumFramework.MainScript@17bffc17]" started-at="2025-03-02T06:51:36 IST" name="launchApp" finished-at="2025-03-02T06:51:46 IST" duration-ms="10286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="main(java.util.HashMap)[pri:0, instance:SeleniumPrep.FullSeleniumFramework.MainScript@17bffc17]" started-at="2025-03-02T06:51:46 IST" name="main" data-provider="getData" finished-at="2025-03-02T06:51:54 IST" duration-ms="7741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Saksham7571@, email=sakshamjauhari23@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumPrep.FullSeleniumFramework.MainScript@17bffc17]" started-at="2025-03-02T06:51:54 IST" name="tearDown" finished-at="2025-03-02T06:51:54 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumPrep.FullSeleniumFramework.MainScript@17bffc17]" started-at="2025-03-02T06:51:54 IST" name="launchApp" finished-at="2025-03-02T06:51:55 IST" duration-ms="1259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyShopping(java.util.HashMap)[pri:0, instance:SeleniumPrep.FullSeleniumFramework.MainScript@17bffc17]" started-at="2025-03-02T06:51:55 IST" name="verifyShopping" data-provider="getData" finished-at="2025-03-02T06:52:04 IST" depends-on-methods="SeleniumPrep.FullSeleniumFramework.MainScript.main" duration-ms="8445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Saksham7571@, email=sakshamjauhari23@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShopping -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumPrep.FullSeleniumFramework.MainScript@17bffc17]" started-at="2025-03-02T06:52:04 IST" name="tearDown" finished-at="2025-03-02T06:52:04 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumPrep.FullSeleniumFramework.MainScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
